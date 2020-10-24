@@ -476,3 +476,7 @@ PRODUCT_PACKAGES += \
 	libnl \
 	libaacwrapper \
 	libwfdaac
+
+# Prebuilts
+PRODUCT_PACKAGES += \
+    RemovePackages
