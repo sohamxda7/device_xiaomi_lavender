@@ -478,6 +478,10 @@ PRODUCT_PACKAGES += \
 	libaacwrapper \
 	libwfdaac
 
+# Prebuilts
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 #FirefoxLite
 PRODUCT_PACKAGES += \
     FirefoxLite
