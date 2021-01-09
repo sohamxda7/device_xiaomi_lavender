@@ -9,12 +9,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
-# Inherit some common PixelExperience stuff
+# Inherit some common Sakura stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
+
+# Sakura build flags
+SAKURA_MAINTAINER := sohamsen(predatorx91)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_lavender
