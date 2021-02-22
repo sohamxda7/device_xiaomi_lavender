@@ -158,7 +158,7 @@ function iosched_configuration() {
     do
         # Choose the first governor available
         avail_scheds="$(cat "$queue/scheduler")"
-        for sched in cfq noop kyber bfq mq-deadline none
+        for sched in cfq mq-deadline noop kyber bfq  none
         do
             if [[ "$avail_scheds" == *"$sched"* ]]
             then
