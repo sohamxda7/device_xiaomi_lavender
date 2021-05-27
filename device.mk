@@ -480,3 +480,6 @@ PRODUCT_PACKAGES += \
 # Prebuilts
 PRODUCT_PACKAGES += \
     RemovePackages
+
+# QTI Perf Component
+TARGET_COMMON_QTI_COMPONENTS := perf
