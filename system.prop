@@ -8,3 +8,7 @@ persist.vendor.cne.feature=1
 DEVICE_PROVISIONED=1
 ril.subscription.types=NV,RUIM
 telephony.lteOnCdmaDevice=1
+
+# PixelPlusUI OFFICIAL
+ro.pixelplusui.maintainer=sohamsen
+org.pixelplusui.device=Redmi Note 7/S
