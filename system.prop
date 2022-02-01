@@ -8,3 +8,10 @@ persist.vendor.cne.feature=1
 DEVICE_PROVISIONED=1
 ril.subscription.types=NV,RUIM
 telephony.lteOnCdmaDevice=1
+
+#official
+org.elixir.device.name=Redmi Note 7 
+ro.elixir.device.name=Redmi Note 7
+ro.elixir.device=lavender
+ro.elixir.maintainer=soham
+ro.elixir.maintainer.username=sohamsen
